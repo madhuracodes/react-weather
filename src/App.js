@@ -17,6 +17,9 @@ function App() {
           wrapperStyle
           wrapperClass
         />
+        <footer>
+          This project was coded by Madhura and is open-sourced on
+        </footer>
       </header>
     </div>
   );

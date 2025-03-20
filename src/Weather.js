@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function Weather() {
-  return <h2>Hi from React</h2>;
+  return (
+    <form>
+      <input type="search" placeholder="type a city" />
+      <input type="submit" value="search" />
+      <input type="submit" value="Current" />
+    </form>
+  );
 }
